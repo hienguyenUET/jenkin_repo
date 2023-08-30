@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Checkout Code') {
       steps {
         git(url: 'https://github.com/hienguyenUET/jenkin_repo.git', branch: 'dev')
       }
